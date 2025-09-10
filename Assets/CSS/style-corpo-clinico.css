@@ -1,0 +1,219 @@
+/* Popups */
+
+.popups
+{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: hsl(from var(--black) h s l / .5);
+    backdrop-filter: blur(2px);
+    z-index: 100;
+}
+
+.container_popup
+{
+    display: none;
+    flex-direction: column;
+    gap: var(--default-gap);
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: var(--default-border-radius);
+    padding: var(--default-gap);
+    max-width: 600px;
+}
+
+.wrapper_popup
+{
+    display: flex;
+    gap: var(--default-gap);
+    width: 100%;
+    max-height: 500px;
+}
+
+.wrapper_popup img
+{
+    height: 225px;
+    max-width: 225px;
+    width: 100%;
+    border-radius: var(--default-border-radius);
+    object-fit: cover;
+    object-position: center;
+}
+
+.subwrapper_popup
+{
+    display: flex;
+    flex-direction: column;
+    gap: var(--default-gap);
+    justify-content: center;
+    min-width: 0;
+    flex-grow: 1;
+}
+
+.desc_container
+{
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: var(--default-gap);
+    min-height: 0;
+}
+
+.subwrapper_popup .title
+{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.subwrapper_popup .doctorName
+{
+    width: auto;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.subwrapper_popup .desc_container .desc
+{
+    width: auto;
+    line-height: 1.5rem;
+}
+
+.subwrapper_popup .desc_container .desc strong, .subwrapper_popup .crm strong
+{
+    font-weight: bold;
+}
+
+.container_popup a
+{
+    padding: var(--default-gap);
+    border-radius: var(--default-border-radius);
+    background-color: hsl(from var(--black) h s l / .9);
+    width: fit-content;
+    color: var(--white);
+}
+
+.container_popup:target, .popups:has(.container_popup:target) 
+{
+    display: flex;
+}
+
+/* Main */
+
+.corpo-clinico
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--default-gap);
+    max-width: var(--default-content);
+    width: 100%;
+    margin-inline: auto;
+}
+
+.corpo-clinico h1
+{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+}
+
+.corpo_nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--default-gap);
+}
+
+.corpo_nav li
+{
+    color: var(--secondary-color);
+    transition: filter 300ms ease;
+}
+
+.corpo_nav li:hover
+{
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.container_cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(calc(var(--default-content) / 4 - var(--default-gap) * 3), 1fr));
+    gap: var(--default-gap);
+    width: 100%;
+
+    margin-block: var(--default-gap);
+}
+
+.wrapper_card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--default-gap);
+    padding: var(--default-gap);
+    background-color: var(--white);
+    border-radius: var(--default-border-radius);
+    text-align: center;
+
+    transition: transform 300ms ease-out;
+}
+
+.wrapper_card h3
+{
+    font-weight: 500;
+    color: var(--secondary-color);
+    height: 3rem;
+
+    display: inlinflex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper_card img
+{
+    border-radius: var(--default-border-radius);
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.wrapper_card .nameDoctor
+{
+    font-weight: bold;
+}
+
+.wrapper_card .crm
+{
+    font-size: 0.8rem;
+    color: hsl(from var(--black) h s l / .5);
+    font-weight: 500;
+}
+
+.wrapper_card a
+{
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding-block: var(--default-gap);
+    border-radius: var(--default-border-radius);
+    color: var(--white);
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.wrapper_card:hover
+{
+    transform: translateY(-10px);
+}

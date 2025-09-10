@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./Assets/CSS/_reset.css">
+    <link rel="stylesheet" href="./Assets/CSS/default.css">
+    <link rel="stylesheet" href="./Assets/CSS/style-corpo-clinico.css">
+    <script src="./mouse-tracking.js" defer></script>
+    <script src="pre-to-p.js"></script>
+</head>
+<body>
+    <div class="pointer" aria-hidden="true"></div>
+    <header>
+        <section class="logo_sect">
+            <a class="btn" href="./index.html"><img src="./Assets/images/logo.png" alt="" class="logo"></a>
+            <div class="container_contact">
+                <div class="wrapper_contact">
+                    <img src="./Assets/images/whatsapp.svg" alt="">
+                    <h2>(34) 98700-5822</h2>
+                    <p class="atendimento">Atendimento somente via Whatsapp e pessoalmente</p>
+                </div>
+                <div class="wrapper_contact contact_2">
+                    <img src="./Assets/images/relógio.svg" alt="">
+                    <h3>ATENDIMENTO</h3>
+                    <p>Segunda a Sexta 7h às 18h</p>
+                </div>
+                <div class="wrapper_contact contact_3">
+                    <img src="./Assets/images/calendar.svg" alt="">
+                    <div class="wrapper_agenda">
+                        <h3 class="agendamento">agendamento online</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container_redes">
+                <a class="btn" href="">
+                    <div class="wrapper_redes"><img src="./Assets/images/facebook.svg" alt=""></div>
+                </a>
+                <a class="btn" href="">
+                    <div class="wrapper_redes"><img src="./Assets/images/instagram.svg" alt=""></div>
+                </a>
+            </div>
+        </section>
+        <section class="nav_sect">
+            <nav>
+                <ul class="container_nav">
+                    <li><a class="btn" href="./cardioclinica.html">a cardioclínica</a></li>
+                    <li><a class="btn" href="./corpo-clinico.html">corpo clínico</a></li>
+                    <li class="seta"><a class="btn" href="./servicos-exames.html">serviços/exames</a></li>
+                    <li><a class="btn" href="./convenio.html">convenio</a></li>
+                    <li><a class="btn" href="./fale-conosco.html">fale-conosco</a></li>
+                </ul>
+                <div class="dropdown">
+                    <ul class="container_dropdown">
+                        <li><a href="./servicos-exames.html#ultrassonografia">
+                            ultrassonografia
+                        </a></li>
+                        <a href="./servicos-exames.html#cardiologicos">
+                            <li>cardiológicos</li>
+                        </a>
+                        <a href="./servicos-exames.html#gastrologicos">
+                            <li>gastrológicos</li>
+                        </a>
+                        <a href="./servicos-exames.html#oftamologicos">
+                            <li>oftamológicos</li>
+                        </a>
+                        <a href="./servicos-exames.html#dermatologicos">
+                            <li>dermatológicos</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="popups">
+            <div class="container_popup" id="vitorOliveira">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-VITOR-OLIVEIRA-GANEM.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">angiologia</p>
+                        <p class="doctorName">DR. VITOR OLIVEIRA GANEM</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Faculdade de medicina em Barbacena. Especialização em Cirurgia Vascular...</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 221709</p>
+                    </div>
+                </div>
+                <a href="#angiologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="flavioHenrique">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/Dr-Flavio-Castro.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">cardiologia</p>
+                        <p class="doctorName">DR. FLÁVIO HENRIQUE ANASTÁCIO DE CASTRO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Formado pela Faculdade Federal de Ouro Preto. Especialista em cardiologia...</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 68266</p>
+                    </div>
+                </div>
+                <a href="#cardiologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="ramiresMendes">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-RAMIRES-MENDES.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">cardiologia</p>
+                        <p class="doctorName">DR. RAMIRES MENDES LAFETÁ</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Formado pela Faculdade de Medicina de Volta Redonda. Áreas de atuação: Cardiologia, Clínica Médica, Ecocardiografia.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 43790</p>
+                    </div>
+                </div>
+                <a href="#cardiologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="ricardoMendes">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-RICARDO-MENDES-LAFETA.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">cardiologia</p>
+                        <p class="doctorName">DR. RICARDO MENDES LAFETÁ</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Curso de Pós-Graduação em Terapia Intensiva. Áreas de atuação: Consultório Médico, Ecocardiografia, Cardiologia.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 22065</p>
+                    </div>
+                </div>
+                <a href="#cardiologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="maxVivas">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/MAX-VIVAS-CASTRO.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">cirurgia geral</p>
+                        <p class="doctorName">DR. MAX VIVAS CASTRO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Residência em Cirurgia Geral no Hospital das Clínicas da UFMG. Residência em Cirurgia Pediátrica no Hospital Odilon Behrens.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 39014</p>
+                    </div>
+                </div>
+                <a href="#cirurgia-geral" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="felipeLima">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-FELIPE-LIMA-CARDOSO.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">cirurgia plástica</p>
+                        <p class="doctorName">DR. FELIPE LIMA CARDOSO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Médico graduado em Belo Horizonte com título de especialista em Cirurgia Plástica pela SBCP. Membro titular da SBCP, ex-preceptor da Residência de Cirurgia Plástica do Hospital Mater Dei e diretor da SBCP.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 50573</p>
+                    </div>
+                </div>
+                <a href="#cirurgia-plastica" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="biancaFreitas">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/dra-bianca-freitas.png" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">dermatologia</p>
+                        <p class="doctorName">DRA. BIANCA FREITAS CALLIL</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Dermatologia pela Santa Casa do Rio de Janeiro e preceptoria no Hospital das Clínicas de São Paulo (USP).</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 50165</p>
+                    </div>
+                </div>
+                <a href="#dermatologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="karitaDelBianco">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/Dra-Karita.png" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">dermatologia</p>
+                        <p class="doctorName">DRA. KARITA DEL BIANCO PEIXOTO CARDOSO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Dermatologia pela Universidade Federal do Triângulo Mineiro. Membro da Sociedade Brasileira de Cirurgia de Restauração Capilar (ABCRC).</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 17601</p>
+                    </div>
+                </div>
+                <a href="#dermatologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="enricoMartins">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-ENRICO-MARTINS-DE-PAIVA.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">gastroenterologia</p>
+                        <p class="doctorName">DR. ENRICO MARTINS DE PAIVA</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Graduado pela Faculdade de Ciências Médicas de Minas Gerais em 1995. Residência em Cirurgia do Aparelho Digestivo pela FHEMIG, no Hospital Felício Rocho, em Belo Horizonte. Residência em Cirurgia do Trauma, no Hospital João XXIII, em Belo Horizonte – MG. Membro titular da Sociedade Brasileira de Endoscopia. Membro titular da Sociedade Brasileira de Cirurgia Videolaparoscópica. Membro do corpo clínico do Hospital Regional Dom Bosco. Membro do corpo clínico da Clínica Vitacenter, em Ibiá – MG. Membro do corpo clínico do Hospital Madrecor, em Uberlândia – MG. Membro do corpo clínico da Cardioclínica Gastrocenter.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 29165</p>
+                    </div>
+                </div>
+                <a href="#gastroenterologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="rafaelaMoreira">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DRA.-Rafaela-Moreira-Paula.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">gastroenterologia</p>
+                        <p class="doctorName">DRA. RAFAELA MOREIRA DE PAULA</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Cursou medicina e formou-se no Instituto Metropolitano de Ensino Superior – União Educacional do Vale do Aço...</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 59737</p>
+                    </div>
+                </div>
+                <a href="#gastroenterologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="soniaAparecida">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/SONIA-APARECIDA-PINHEIRO.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">gastroenterologia</p>
+                        <p class="doctorName">DRA. SÔNIA APARECIDA PINHEIRO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Hospital universitário da universidade federal de Juiz de Fora – residência médica (clínica médica/gastroenterologista/endoscopia)<br><br>ÁREAS DE ATUAÇÃO: Gastro / Endoscopia Digestiva</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 34126</p>
+                    </div>
+                </div>
+                <a href="#gastroenterologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="uadysonBorges">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/dr-uadyson.png" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">gastroenterologia</p>
+                        <p class="doctorName">DR. UADYSON BORGES VIEIRA</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Há 29 anos, uma jornada começou com um propósito: cuidar das pessoas. Formado pela FMTM (hoje UFTM) em 1995, com residência em cirurgia geral e cirurgia do aparelho digestivo. Atua como cirurgião do aparelho digestivo e bariátrico.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 29425</p>
+                    </div>
+                </div>
+                <a href="#gastroenterologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="lucasDantas">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/dr-lucas.png" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">Neurocirurgia e Tratamento da Coluna Vertebral / Dor</p>
+                        <p class="doctorName">DR. LUCAS DANTAS PEDROSA</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Dr. Lucas Dantas Pedrosa é graduado em Medicina pela Universidade de Itaúna – MG, com residência em Neurocirurgia e pós-graduação na área.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 71728</p>
+                    </div>
+                </div>
+                <a href="#neurocirurgia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="cintiaNepomuceno">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DRA-CINTIA-NEPOMUCENO.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">nutricionista</p>
+                        <p class="doctorName">DRA. CINTIA NEPOMUCENO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Nutricionista pela UNIFRAN Com especialização em Fitoterapia e Prescrição de Fitoterápicos pela FAMEESP – Faculdade Metropolitana do Estado de São Paulo</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 15250</p>
+                    </div>
+                </div>
+                <a href="#nutricionista" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="leonardoTannus">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-LEONARDO-TANNUS-MALKI.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">oftamologia</p>
+                        <p class="doctorName">DR. LEONARDO TANNUS MALKI</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Universidade de Ribeirão Preto. Especialista pelo conselho brasileiro de oftalmologia. Pós-graduação na USP.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 50157</p>
+                    </div>
+                </div>
+                <a href="#oftamologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="thiagoAbrao">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-THIAGO-ABRAO-FURTADO.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">Ortopedia</p>
+                        <p class="doctorName">DR. THIAGO ABRÃO FURTADO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Residência médica na especialidade de ortopedia e traumatologia, com experiência em procedimentos minimamente invasivos.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 49871</p>
+                    </div>
+                </div>
+                <a href="#ortopedia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="elisaMorais">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/ELISA-MORAIS-LEAO.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">otorrinolaringologia</p>
+                        <p class="doctorName">DRA. ELISA MORAIS LEÃO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Graduada pela UFMG, com especialização em otorrinolaringologia e aperfeiçoamento em eletrofisiologia da audição.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 49686</p>
+                    </div>
+                </div>
+                <a href="#otorrinolaringologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="elisaMyrthes">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-ELISA-MYRTHES-FONSECA-BIZINOTO.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">psicologia</p>
+                        <p class="doctorName">DRA. ELISA MYRTHES FONSECA BIZINOTO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Graduação e Licenciatura em Psicologia UNIUBE/Uberaba-MG.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 0418245</p>
+                    </div>
+                </div>
+                <a href="#psicologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="ketlynGabrielly">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DRA.-KETLYN.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">psicologia</p>
+                        <p class="doctorName">DRA. KETLYN GABRIELLY SILVA</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Graduada em Psicologia, com pós-graduações em Psicologia Existencial, Humanista e Fenomenológica, e em Psicologia Infantil. Oferece um atendimento humanizado, acolhedor e voltado para o bem-estar emocional. Realiza acompanhamento psicológico de crianças, adolescentes e adultos, promovendo escuta empática, vínculo terapêutico e desenvolvimento pessoal em todas as fases da vida.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 04/80461</p>
+                    </div>
+                </div>
+                <a href="#psicologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="vivianeJoaquim">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/foto-dra-VIVIANE-1.webp" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">ultrassonografia</p>
+                        <p class="doctorName">DRA. KETLYN GABRIELLY SILVA</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Médica Especialista em Ultrassonografia Geral Crm: 44462/RQE: 42173. Pós Graduada em Nutrologia pela Abran.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 44462</p>
+                    </div>
+                </div>
+                <a href="#ultrassonografia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="marcelloFeo">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/Dr-Marcello-Feo-e1726746522819.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">ultrassonografia</p>
+                        <p class="doctorName">DR. MARCELLO FÉO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Médico formado na Universidade Federal de Uberlândia (UFU). Especialista em Ultrassonografia geral e Doppler.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 49078</p>
+                    </div>
+                </div>
+                <a href="#urologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="wallaceHostalacio">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/DR.-Wallace-Hostalacio-Avelar.jpg" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">ultrassonografia</p>
+                        <p class="doctorName">DR. WALLACE HOSTALACIO AVELAR</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Cursou e formou-se em Medicina na Universidade Federal do Estado do Rio de Janeiro (UNIRIO).</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 221709</p>
+                    </div>
+                </div>
+                <a href="#urologia" class="btn">Fechar</a>
+            </div>
+            <div class="container_popup" id="eduardoAugusto">
+                <div class="wrapper_popup">
+                    <img src="./Assets/images/corpo-clinico/dr-eduardo.png" alt="">
+                    <div class="subwrapper_popup">
+                        <p class="title">urologia</p>
+                        <p class="doctorName">DR. EDUARDO AUGUSTO</p>
+                        <div class="desc_container">
+                            <p class="desc"><strong>Descrição:</strong> Faculdade de Medicina da Universidade Federal do Triângulo Mineiro. Residência em Cirurgia Geral.</p>
+                        </div>
+                        <p class="crm"><strong>CRM:</strong> 54184</p>
+                    </div>
+                </div>
+                <a href="#urologia" class="btn">Fechar</a>
+            </div>
+        </section>
+        <section class="corpo-clinico">
+            <h1>corpo clínico</h1>
+            <ul class="corpo_nav">
+                <li><a href="#angiologia" class="btn">Angiologia</a></li>|
+                <li><a href="#cardiologia" class="btn">Cardiologia</a></li>|
+                <li><a href="#cirurgia-geral" class="btn">Cirurgia Geral</a></li>|
+                <li><a href="#cirurgia-plastica" class="btn">Cirurgia Plástica</a></li>|
+                <li><a href="#dermatologia" class="btn">Dermatologia</a></li>|
+                <li><a href="#gastroenterologia" class="btn">Gastroenterologia</a></li>|
+                <li><a href="#neurocirurgia" class="btn">Neurocirurgia e Tratamento da Coluna Vertebral / Dor</a></li>|
+                <li><a href="#nutricionista" class="btn">Nutróloga</a></li>|
+                <li><a href="#oftalmologia" class="btn">Oftalmologia</a></li>|
+                <li><a href="#ortopedia" class="btn">Ortopedia</a></li>|
+                <li><a href="#otorrinolaringologia" class="btn">Otorrinolaringologia</a></li>|
+                <li><a href="#psicologia" class="btn">Psicologia</a></li>|
+                <li><a href="#ultrassonografia" class="btn">Ultrassonografia</a></li>|
+                <li><a href="#urologia" class="btn">Urologia</a></li>
+            </ul>
+            <div class="container_cards">
+                <div class="wrapper_card" id="angiologia">
+                    <h3>Angiologia</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-VITOR-OLIVEIRA-GANEM.jpg" alt="">
+                    <p class="nameDoctor">DR. VITOR OLIVEIRA GANEM</p>
+                    <p class="crm">CRM: 221709</p>
+                    <a href="#vitorOliveira" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="cardiologia">
+                    <h3>Cardiologia</h3>
+                    <img src="./Assets/images/corpo-clinico/Dr-Flavio-Castro.jpg" alt="">
+                    <p class="nameDoctor">DR. FLÁVIO HENRIQUE ANASTÁCIO DE CASTRO</p>
+                    <p class="crm">CRM: 68266</p>
+                    <a href="#flavioHenrique" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Cardiologia</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-RAMIRES-MENDES.jpg" alt="">
+                    <p class="nameDoctor">DR. RAMIRES MENDES LAFETÁ</p>
+                    <p class="crm">CRM: 43790</p>
+                    <a href="#ramiresMendes" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Cardiologia</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-RICARDO-MENDES-LAFETA.jpg" alt="">
+                    <p class="nameDoctor">DR. RICARDO MENDES LAFETÁ</p>
+                    <p class="crm">CRM: 22065</p>
+                    <a href="#ricardoMendes" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="cirurgia-geral">
+                    <h3>Cirurgia Geral</h3>
+                    <img src="./Assets/images/corpo-clinico/MAX-VIVAS-CASTRO.jpg" alt="">
+                    <p class="nameDoctor">DR. MAX VIVAS CASTRO</p>
+                    <p class="crm">CRM: 39014</p>
+                    <a href="#maxVivas" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="cirurgia-plastica">
+                    <h3>Cirurgia Plástica</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-FELIPE-LIMA-CARDOSO.jpg" alt="">
+                    <p class="nameDoctor">DR. FELIPE LIMA CARDOSO</p>
+                    <p class="crm">CRM: 50573</p>
+                    <a href="#felipeLima" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="dermatologia">
+                    <h3>Dermatologia</h3>
+                    <img src="./Assets/images/corpo-clinico/dra-bianca-freitas.png" alt="">
+                    <p class="nameDoctor">DRA. BIANCA FREITAS CALLIL</p>
+                    <p class="crm">CRM: 50165</p>
+                    <a href="#biancaFreitas" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Dermatologia</h3>
+                    <img src="./Assets/images/corpo-clinico/Dra-Karita.png" alt="">
+                    <p class="nameDoctor">DRA. KARITA DEL BIANCO PEIXOTO CARDOSO</p>
+                    <p class="crm">CRM: 17601</p>
+                    <a href="#karitaDelBianco" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="gastroenterologia">
+                    <h3>Gastroenterologia</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-ENRICO-MARTINS-DE-PAIVA.jpg" alt="">
+                    <p class="nameDoctor">DR. ENRICO MARTINS DE PAIVA</p>
+                    <p class="crm">CRM: 29165</p>
+                    <a href="#enricoMartins" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Gastroenterologia</h3>
+                    <img src="./Assets/images/corpo-clinico/DRA.-Rafaela-Moreira-Paula.jpg" alt="">
+                    <p class="nameDoctor">DRA. RAFAELA MOREIRA DE PAULA</p>
+                    <p class="crm">CRM: 59737</p>
+                    <a href="#rafaelaMoreira" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Gastroenterologia</h3>
+                    <img src="./Assets/images/corpo-clinico/SONIA-APARECIDA-PINHEIRO.jpg" alt="">
+                    <p class="nameDoctor">DRA. SÔNIA APARECIDA PINHEIRO</p>
+                    <p class="crm">CRM: 34126</p>
+                    <a href="#soniaAparecida" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Gastroenterologia</h3>
+                    <img src="./Assets/images/corpo-clinico/dr-uadyson.png" alt="">
+                    <p class="nameDoctor">DR. UADYSON BORGES VIEIRA</p>
+                    <p class="crm">CRM: 29425</p>
+                    <a href="#uadysonBorges" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="neurocirurgia">
+                    <h3>Neurocirurgia e Tratamento da Coluna Vertebral / Dor</h3>
+                    <img src="./Assets/images/corpo-clinico/dr-lucas.png" alt="">
+                    <p class="nameDoctor">DR. LUCAS DANTAS PEDROSA</p>
+                    <p class="crm">CRM: 71728</p>
+                    <a href="#lucasDantas" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="nutricionista">
+                    <h3>Nutricionista</h3>
+                    <img src="./Assets/images/corpo-clinico/DRA-CINTIA-NEPOMUCENO.jpg" alt="">
+                    <p class="nameDoctor">DRA. CINTIA NEPOMUCENO</p>
+                    <p class="crm">CRM: 15250</p>
+                    <a href="#cintiaNepomuceno" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="oftalmologia">
+                    <h3>Oftalmologia</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-LEONARDO-TANNUS-MALKI.jpg" alt="">
+                    <p class="nameDoctor">DR. LEONARDO TANNUS MALKI</p>
+                    <p class="crm">CRM: 50157</p>
+                    <a href="#leonardoTannus" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="ortopedia">
+                    <h3>Ortopedia</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-THIAGO-ABRAO-FURTADO.jpg" alt="">
+                    <p class="nameDoctor">DR. THIAGO ABRÃO FURTADO</p>
+                    <p class="crm">CRM: 49871</p>
+                    <a href="#thiagoAbrao" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="otorrinolaringologia">
+                    <h3>Otorrinolaringologia</h3>
+                    <img src="./Assets/images/corpo-clinico/ELISA-MORAIS-LEAO.jpg" alt="">
+                    <p class="nameDoctor">DRA. ELISA MORAIS LEÃO</p>
+                    <p class="crm">CRM: 49686</p>
+                    <a href="#elisaMorais" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="psicologia">
+                    <h3>Psicologia</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-ELISA-MYRTHES-FONSECA-BIZINOTO.jpg" alt="">
+                    <p class="nameDoctor">DRA. ELISA MYRTHES FONSECA BIZINOTO</p>
+                    <p class="crm">CRM: 0418245</p>
+                    <a href="#elisaMyrthes" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Psicologia</h3>
+                    <img src="./Assets/images/corpo-clinico/DRA.-KETLYN.jpg" alt="">
+                    <p class="nameDoctor">DRA. KETLYN GABRIELLY SILVA</p>
+                    <p class="crm">CRM: 04/80461</p>
+                    <a href="#ketlynGabrielly" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="ultrassonografia">
+                    <h3>Ultrassonografia</h3>
+                    <img src="./Assets/images/corpo-clinico/foto-dra-VIVIANE-1.webp" alt="">
+                    <p class="nameDoctor">DRA. Viviane Joaquim</p>
+                    <p class="crm">CRM: 44462</p>
+                    <a href="#vivianeJoaquim" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Ultrassonografia</h3>
+                    <img src="./Assets/images/corpo-clinico/Dr-Marcello-Feo-e1726746522819.jpg" alt="">
+                    <p class="nameDoctor">DR. MARCELLO FÉO</p>
+                    <p class="crm">CRM: 49078</p>
+                    <a href="#marcelloFeo" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card">
+                    <h3>Ultrassonografia</h3>
+                    <img src="./Assets/images/corpo-clinico/DR.-Wallace-Hostalacio-Avelar.jpg" alt="">
+                    <p class="nameDoctor">DR. WALLACE HOSTALACIO AVELAR</p>
+                    <p class="crm">CRM: 221709</p>
+                    <a href="#wallaceHostalacio" class="btn">Ler Mais</a>
+                </div>
+                <div class="wrapper_card" id="urologia">
+                    <h3>Urologia</h3>
+                    <img src="./Assets/images/corpo-clinico/dr-eduardo.png" alt="">
+                    <p class="nameDoctor">DR. EDUARDO AUGUSTO</p>
+                    <p class="crm">CRM: 54184</p>
+                    <a href="#eduardoAugusto" class="btn">Ler Mais</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer_sect">
+            <div class="container_footer">
+                <a href="./index.html" class="btn"><img src="./Assets/images/logo.png" alt="" class="logo_footer"></a>
+                <div class="wrapper_redes_footer">
+                    <a href="#" class="btn"><img src="./Assets/images/facebook.svg" alt=""></a>
+                    <a href="#" class="btn"><img src="./Assets/images/instagram.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="container_footer">
+                <h3>Atendimento somente via Whatsapp e pessoalmente</h3>
+                <a href="#" class="btn">
+                    <div class="wrapper_contact_footer">
+                        <img src="./Assets/images/whatsapp.svg" alt="">
+                        <p>(34) 98700-5822</p>
+                    </div>
+                </a>
+                <a href="#" class="btn">
+                    <div class="wrapper_contact_footer">
+                        <img src="./Assets/images/map.svg" alt="">
+                        <p>SENAC Minas</p>
+                    </div>
+                </a>
+            </div>
+            <div class="container_footer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.4411328286537!2d-46.94528788829528!3d-19.608429628301046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b037003dacb1a3%3A0x7fc314624d4e362e!2sSenac%20em%20Arax%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1756772216948!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+            </div>
+        </section>
+        <section class="foot_sect">
+            <div class="wrapper_txt">
+                <p>criado por <strong>Luqi</strong></p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,322 @@
+main
+{
+    padding: 0;
+}
+
+.hero
+{
+    height: 600px;
+}
+
+.carrossel
+{
+    position: absolute;
+    height: inherit;
+    background: url(../images/carrossel/01.png) no-repeat center / cover;
+    width: 100%;
+}
+
+.sobre
+{
+    display: flex;
+    background: linear-gradient(90deg ,var(--primary-color) 0%, var(--tertiary-color) 100%);
+    padding: calc(var(--default-gap) * 3) var(--default-gap);
+    align-items: center;
+    justify-content: center;
+}
+
+.container_sobre
+{
+    display: flex;
+    width: 100%;
+    max-width: var(--default-content);
+    gap: var(--default-gap);
+}
+
+.wrapper_sobre
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--white);
+    width: 100%;
+}
+
+.wrapper_sobre h1
+{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.wrapper_sobre p
+{
+    line-height: 1.5rem;
+}
+
+.wrapper_sobre a
+{
+    border: 2px solid var(--white);
+    width: fit-content;
+    padding: var(--default-gap) calc(var(--default-gap) * 2);
+    border-radius: var(--default-border-radius);
+}
+
+.wrapper_sobre img
+{
+    border-radius: calc(var(--default-gap) * 4) calc(var(--default-gap) * 1.5) calc(var(--default-gap) * 4) calc(var(--default-gap) / 1.5);
+}
+
+.ultra
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 var(--default-gap);
+    align-content: center;
+
+    --gap-cards: calc(var(--default-gap) * 2);
+
+    gap: var(--gap-cards);
+}
+
+.ultra h2
+{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: var(--gap-cards);
+    color: var(--secondary-color);
+}
+
+.ultra .container_cards
+{
+    display: flex;
+    gap: var(--gap-cards);
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: var(--default-content);
+    width: 100%;
+}
+
+.ultra .container_cards .wrapper_card
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--default-gap);
+    flex-direction: column;
+    position: relative;
+    height: 385px;
+    width: min(232.25px, 100%);
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/urologia.jpg) no-repeat center / cover;
+    color: var(--white);
+    border-radius: var(--default-border-radius);
+    padding: var(--default-gap) 0;
+    text-align: center;
+}
+
+.ultra .container_cards .wrapper_card h3
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ultra .container_cards .wrapper_card p
+{
+    background-color: hsl(from var(--black) h s l / 0.5);
+    padding: var(--default-gap);
+    line-height: 1.5rem;
+}
+
+.ultra .container_cards .wrapper_card a
+{
+    width: fit-content;
+    background-color: var(--secondary-color);
+    padding: var(--default-gap) calc(var(--default-gap) * 2);
+    position: absolute;
+    bottom: -24px;
+    border-radius: 25px;
+}
+
+.atuacao
+{
+    display: flex;
+    gap: calc(var(--default-gap) * 2);
+    padding: calc(var(--default-gap) * 4) var(--default-gap);
+    max-width: var(--default-content);
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.image_atuacao
+{
+    background: url(../images/atuacao-cardioclinica.jpg) no-repeat center / cover;
+    width: 100%;
+    border-radius: var(--default-border-radius);
+}
+
+.container_atuacao
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--default-gap);
+}
+
+.container_atuacao .tag
+{
+    color: hsl(from var(--black) h s l / 0.5);
+    text-transform: uppercase;
+}
+
+.container_atuacao h4
+{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.container_atuacao hr
+{
+    height: 3px;
+    width: 5rem;
+    background-color: var(--black);
+}
+
+.container_expertise
+{
+    display: grid;
+    gap: var(--default-gap);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.wrapper_expertise
+{
+    display: flex;
+    flex-direction: column;
+    gap: var(--default-gap);
+}
+
+.wrapper_expertise img
+{
+    height: 50px;
+    width: fit-content;
+}
+
+.wrapper_expertise .title_expertise
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.wrapper_expertise .subtitle_expertise
+{
+    color: hsl(from var(--black) h s l / 0.5);
+}
+
+.convenios
+{
+    height: 350px;
+    background: linear-gradient(hsl(from var(--black) h s l / .8) 0 0) ,url(../images/backgroundFixo.jpg) no-repeat left top / cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc(var(--default-gap) * 2);
+}
+
+.convenios h3
+{
+    font-size: 2rem;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.wrapper_conv
+{
+    display: flex;
+    justify-content: space-around;
+    max-width: var(--default-content);
+    width: 100%;
+}
+
+.wrapper_conv img
+{
+    height: 120px;
+    object-fit: cover;
+    border-radius: var(--default-border-radius);
+}
+
+.fique-sabendo
+{
+    padding: calc(var(--default-gap) * 3) var(--default-gap) var(--default-gap) calc(var(--default-gap) / 2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--default-gap);
+}
+
+.fique-sabendo h4, .fique-sabendo a
+{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.fique-sabendo h4
+{
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+.fique-sabendo a
+{
+    background-color: var(--secondary-color);
+    padding: var(--default-gap) calc(var(--default-gap) * 2);
+    border-radius: var(--default-border-radius);
+
+    color: var(--white);
+}
+
+.container_fique-sabendo
+{
+    display: flex;
+    height: 235px;
+    max-width: var(--default-content);
+    width: 100%;
+    gap: var(--default-gap);
+}
+
+.wrapper_fique-sabendo
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: var(--white);
+    font-size: 1.5rem;
+
+    background: linear-gradient(hsl(from var(--black) h s l / .5) 0 0), url(../images/backgroundFixo.jpg) no-repeat center / cover;
+    border-radius: var(--default-border-radius);
+    padding: var(--default-gap) var(--default-gap) calc(var(--default-gap) * 3) var(--default-gap);
+}
+
+.wrapper_fique-sabendo p
+{
+    color: hsl(from var(--white) h s l / .75);
+}
+
+.wrapper_fique-sabendo hr
+{
+    position: absolute;
+    height: 3px;
+    background-color: var(--white);
+    width: 48px;
+    bottom: calc(var(--default-gap) * 1.5);
+    left: var(--default-gap);
+}
+

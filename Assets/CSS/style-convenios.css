@@ -1,0 +1,57 @@
+.ultra
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    --grid-gap: calc(var(--default-gap) * 2);
+    gap: var(--grid-gap);
+}
+
+.ultra h1
+{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-top: var(--default-gap);
+}
+
+.container_convenios
+{
+    display: flex;
+    flex-direction: column;
+    gap: var(--grid-gap);
+    max-width: var(--default-content);
+    width: 100%;
+}
+
+.wrapper_convenio
+{
+    display: flex;
+    gap: var(--grid-gap);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper_convenio img
+{
+    flex: 1;
+    min-width: 0;
+
+    width: 100%;
+    height: 120px;
+    border-radius: var(--default-border-radius);
+    object-fit: cover;
+}
+
+.wrapper_convenio.final
+{
+    justify-content: center;
+}
+
+.wrapper_convenio.final img
+{
+    max-width: calc((100% - (3 * var(--grid-gap))) / 4);
+}
