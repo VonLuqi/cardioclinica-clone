@@ -108,11 +108,75 @@ main
     position: relative;
     height: 385px;
     width: min(232.25px, 100%);
-    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/urologia.jpg) no-repeat center / cover;
     color: var(--white);
     border-radius: var(--default-border-radius);
     padding: var(--default-gap) 0;
     text-align: center;
+}
+
+.cirurgia-plastica
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/cirurgia-plastica.jpg) no-repeat center / cover;
+}
+
+.ultrassonografia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/ultrassonografia.jpg) no-repeat center / cover;
+}
+
+.gastroenterologia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/gastroenterologia.jpeg) no-repeat center / cover;
+}
+
+.cardiologia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/cardiologia.webp) no-repeat center / cover;
+}
+
+.dermatologia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/dermatologia.png) no-repeat center / cover;
+}
+
+.ortopedia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/ortopedia.jpg) no-repeat center / cover;
+}
+
+.psicologia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/psicologia.jpeg) no-repeat center / cover;
+}
+
+.oftalmologia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/oftalmologia.jpg) no-repeat center / cover;
+}
+
+.otorrinolaringologia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/otorrinolaringologia.jpg) no-repeat center / cover;
+}
+
+.urologia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/urologia.jpg) no-repeat center / cover;
+}
+
+.neurociencia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/neurociencia.jpg) no-repeat center / cover;
+}
+
+.angiologia
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/angiologia.webp) no-repeat center / cover;
+}
+
+.cirurgia-geral
+{
+    background: linear-gradient(hsl(from var(--black) h s l / 0.5)), url(../images/index/cirurgia-geral.jpg) no-repeat center / cover;
 }
 
 .ultra .container_cards .wrapper_card h3
@@ -126,6 +190,8 @@ main
     background-color: hsl(from var(--black) h s l / 0.5);
     padding: var(--default-gap);
     line-height: 1.5rem;
+    height: 126px;
+    align-content: center;
 }
 
 .ultra .container_cards .wrapper_card a
@@ -300,9 +366,23 @@ main
     color: var(--white);
     font-size: 1.5rem;
 
-    background: linear-gradient(hsl(from var(--black) h s l / .5) 0 0), url(../images/backgroundFixo.jpg) no-repeat center / cover;
     border-radius: var(--default-border-radius);
     padding: var(--default-gap) var(--default-gap) calc(var(--default-gap) * 3) var(--default-gap);
+}
+
+.coracao
+{
+    background: linear-gradient(hsl(from var(--black) h s l / .5) 0 0), url(../images/noticias/CoraçãoBrasil.png) no-repeat center / cover;
+}
+
+.nucleo
+{
+    background: linear-gradient(hsl(from var(--black) h s l / .5) 0 0), url(../images/noticias/Nucleo.png) no-repeat center / cover;
+}
+
+.fevereiro
+{
+    background: linear-gradient(hsl(from var(--black) h s l / .5) 0 0), url(../images/noticias/Fevereiro.png) no-repeat center / cover;
 }
 
 .wrapper_fique-sabendo p
